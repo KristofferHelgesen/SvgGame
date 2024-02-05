@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { SvgPlayerComponent } from './components/svg-player/svg-player.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SvgPlayerComponent
   ],
   imports: [
     BrowserModule
